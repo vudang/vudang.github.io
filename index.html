@@ -20,13 +20,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="demoweb">
+  <meta name="apple-mobile-web-app-title" content="map_tools">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>demoweb</title>
+  <title>map_tools</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -36,9 +36,26 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1400652163');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2517761159');
       });
     }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVb9Q5WCuHl5e11XmTDEQilwrx2pfozU4"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+  <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBGVpj_90vOjkRusROdzAU_vG00EhovpCw",
+        authDomain: "vimap-e0165.firebaseapp.com",
+        databaseURL: "https://vimap-e0165.firebaseio.com",
+        projectId: "vimap-e0165",
+        storageBucket: "vimap-e0165.appspot.com",
+        messagingSenderId: "222472389740",
+        appId: "1:222472389740:web:ea1e355b9c6efce38e0449"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>

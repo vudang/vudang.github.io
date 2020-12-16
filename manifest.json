@@ -1,6 +1,6 @@
 {
-    "name": "demoweb",
-    "short_name": "demoweb",
+    "name": "map_tools",
+    "short_name": "map_tools",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
