@@ -59058,7 +59058,7 @@ F.a3T.prototype={
 $1:function(a){var s,r,q=null,p=this.a
 p.EU()
 p.r=a
-p.d.gao().xk(F.a9j(p.r,"assets/images/marker.png",q,q))
+p.d.gao().xk(F.a9j(p.r,"assets/marker.png",q,q))
 s=a.a
 r=a.b
 p.x=!0
